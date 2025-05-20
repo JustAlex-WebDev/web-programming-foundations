@@ -63,10 +63,6 @@ function HangmanGame({ game, setGame }) {
       ) : (
         <p>Играта е приключила.</p>
       )}
-
-      {bulgarianAlphabet.map((letter) => {
-        return <button onClick={() => makeGuess(letter)}>{letter}</button>;
-      })}
     </>
   );
 }
